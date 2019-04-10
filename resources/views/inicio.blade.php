@@ -9,7 +9,7 @@
             Bienvenido al foro en español sobre programación en Dart
             Lenguaje multiplataformas para aplicaciones móviles.
         </div>
-        <div class="col-lg-4" style="background:#a1cbef; font-size: large; margin-top: 20px; margin-bottom: -210px">
+        <div class="col-lg-4" style="background:#a1cbef; font-size: large; margin-top: 20px">
             <a>Dart Hello World Code</a>
             <pre style="background-color: #d6e9f9"> <code style="text-emphasis-style: open  ">
 // Copyright 2015 the Dart project authors. All rights reserved.
@@ -23,23 +23,7 @@
                 </code></pre>
         </div>
     </div>
-    <div class="row">
-        <div class="col-lg-4 " style="background:#a1cbef; font-size: large; margin-top: 20px" >
-            <form>
-                <div class="form-group">
-                    <label for="email1">Correo Electronico</label>
-                    <input type="email" class="form-control" id="email1" aria-describedby="emailhelp" placeholder="Ingrese su correo electronico">
-                    <small id="emailhelp" class="form-text text-muted"example@email.com></small>
-                </div>
-                <div class="form-group">
-                    <label for="pass1">Contraseña</label>
-                    <input type="password" class="form-control" id="pass1" placeholder=" Ingrese su contraseña">
 
-                </div>
-                <button type="submit" class="btn btn-primary">Registrar</button>
-            </form>
-        </div>
-    </div>
 
 
 

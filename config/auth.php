@@ -70,6 +70,12 @@ return [
             'driver' => 'eloquent',
             'model' => App\User::class,
         ],
+        'usuario'=>[
+
+            'driver'=> 'mysql',
+            'model' => App\usuario::class,
+            'table' => 'usuario',
+        ]
 
         // 'users' => [
         //     'driver' => 'database',

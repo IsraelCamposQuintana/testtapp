@@ -16,7 +16,11 @@ Route::get('/', function () {
 });
 
 
-Route::get('/inicio','HomeController@inicio')->name('inicio');
+
 Route::get('/articulos','ArticulosController@artuno')->name('articulos');
 Route::get('/tutoriales','TutorialesController@tutouno')->name('tutoriales');
 Route::get('/noticias','NoticiasController@notuno')->name('noticias');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
